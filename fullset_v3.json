@@ -1707,13 +1707,13 @@
     "turn_uuid": "c60036df-f230-4afd-b764-31d9b591f776",
     "session_id": "f9592926-8d2d-4ec8-9c3b-0e18563f9840",
     "source": "f9592926-8d2d-4ec8-9c3b-0e18563f9840.jsonl",
-    "claim": "`EmptyStateView` now also listens for `.perchPanelWillOpen` and restarts the drift on every open.",
+    "claim": "`EmptyStateView` now also listens for `.menubarPanelWillOpen` and restarts the drift on every open.",
     "type": "Fact Mismatch",
     "pramana": "pratyaksha",
     "v1_verdict": "supported",
     "v1_why": "Evidence line 8 shows an added .onReceive(NotificationCenter.default.publisher(for: .perchPanelWill...) call, consistent with this claim.",
     "v3_verdict": "supported",
-    "v3_why": "edit 8 adds .onReceive(NotificationCenter.default.publisher(for: .perchPanelWillOpen...)) to EmptyStateView"
+    "v3_why": "edit 8 adds .onReceive(NotificationCenter.default.publisher(for: .menubarPanelWillOpen...)) to EmptyStateView"
   },
   {
     "turn_uuid": "471522c2-cf5e-4fbc-84a0-f40acf51a839",
@@ -1779,7 +1779,7 @@
     "turn_uuid": "471522c2-cf5e-4fbc-84a0-f40acf51a839",
     "session_id": "f9592926-8d2d-4ec8-9c3b-0e18563f9840",
     "source": "f9592926-8d2d-4ec8-9c3b-0e18563f9840.jsonl",
-    "claim": "`Tsenta Web`, `Covary`, `Numen`, `Idea Scout` | `Storefront`, `Dashboard`, `FieldKit`, `Nightly Digest`",
+    "claim": "`Tsenta Web`, `Covary`, `RelayD`, `Idea Scout` | `Storefront`, `Dashboard`, `FieldKit`, `Nightly Digest`",
     "type": "Fabricated Tool Call",
     "pramana": "ungrounded",
     "v1_verdict": "unsupported",
