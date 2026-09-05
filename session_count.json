@@ -1,0 +1,88 @@
+{
+  "total_jsonl": 4713,
+  "over_10kb": 4676,
+  "scored": 5,
+  "unscored_count": 4671,
+  "unscored_files": [
+    {
+      "name": "0634f4c9-1b62-444b-832b-741ae32f8cac",
+      "size": 88476
+    },
+    {
+      "name": "1080a86f-a61f-46fe-aaaf-b4d37125ea8d",
+      "size": 45057
+    },
+    {
+      "name": "1f2bd631-1f7c-4986-b12b-354f9736072f",
+      "size": 38089
+    },
+    {
+      "name": "2155c54e-1cd2-4a1d-ae98-c2da6fa54842",
+      "size": 44156
+    },
+    {
+      "name": "2761db63-5ac8-4e0f-90bb-42bd3c12876b",
+      "size": 102462
+    },
+    {
+      "name": "2964a4f1-eb4a-4c06-9eb8-36318caa1567",
+      "size": 16936
+    },
+    {
+      "name": "318ec1fd-44a4-4086-a9d4-66bb8d04fe65",
+      "size": 48715
+    },
+    {
+      "name": "419c168a-3eb6-49fe-a32e-2eeedb206e9d",
+      "size": 101067
+    },
+    {
+      "name": "559c93b7-8173-4d4a-9d06-36394ad61cbc",
+      "size": 27402
+    },
+    {
+      "name": "58df3b7b-17a0-48b4-8e0a-dd01e0057f6c",
+      "size": 43181
+    },
+    {
+      "name": "5cf33ca9-4785-4523-a109-761c1f7976b7",
+      "size": 22652
+    },
+    {
+      "name": "694c973b-5f3e-4a67-9479-d723dde4e739",
+      "size": 96124
+    },
+    {
+      "name": "7862fca8-6ef3-48a2-bb84-6ce8479c139c",
+      "size": 45049
+    },
+    {
+      "name": "7885edeb-a4b0-4224-8ecf-c5e66344642b",
+      "size": 39401
+    },
+    {
+      "name": "7f6833c4-2831-4345-8f59-d4cd855ac14b",
+      "size": 42576
+    },
+    {
+      "name": "7f865a4a-6a99-46a7-9fad-649546435d94",
+      "size": 41618
+    },
+    {
+      "name": "9b744ab4-341c-463f-a66d-62ef236c551d",
+      "size": 39304
+    },
+    {
+      "name": "9dc71ecf-aed0-4a84-aa5d-6d8df58871da",
+      "size": 92222
+    },
+    {
+      "name": "a9ebe5e3-f17f-46d8-b15a-478828217983",
+      "size": 18791
+    },
+    {
+      "name": "bb400ef3-0af1-4e20-affc-2aac9421fdb0",
+      "size": 39267
+    }
+  ]
+}

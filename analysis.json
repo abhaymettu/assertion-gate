@@ -1,0 +1,157 @@
+{
+  "version": "1.2.0",
+  "computed_at": "2026-09-04T20:30:00-05:00",
+  "ground_truth": {
+    "total_labeled": 50,
+    "matched_to_fullset": 49,
+    "label_distribution": {
+      "overclaim": 13,
+      "fp_turn_scope": 24,
+      "fp_evidence_missed": 9,
+      "fp_not_a_claim": 3
+    },
+    "adjudication_protocol_version": 3,
+    "adjudication_note": "Third-pass labels. First pass (60% confirmed) read only scorer rationale. Second pass (54%) read in-turn receipts only. Third pass (26.0% confirmed) read all receipts in all turns of each session."
+  },
+  "ab_results_50_labels": {
+    "v1": {
+      "description": "No history - scorer sees only current turn receipts",
+      "flagged": 50,
+      "true_positives": 13,
+      "false_positives": 37,
+      "precision": 0.260,
+      "precision_ci_95": [0.162, 0.403],
+      "recall": 1.000,
+      "recall_ci_95": [0.772, 1.000],
+      "f1": 0.419
+    },
+    "v2": {
+      "description": "History + leniency sentence",
+      "flagged": 15,
+      "true_positives": 7,
+      "false_positives": 8,
+      "precision": 0.467,
+      "recall": 0.538,
+      "f1": 0.500
+    },
+    "v3": {
+      "description": "History alone (up to 8 earlier turns, 6000 char cap, newest first)",
+      "flagged": 24,
+      "true_positives": 8,
+      "false_positives": 16,
+      "precision": 0.333,
+      "recall": 0.615,
+      "f1": 0.432
+    }
+  },
+  "fullset_results_324_claims": {
+    "total_claims": 324,
+    "total_turns": 44,
+    "total_sessions": 5,
+    "v1": {
+      "unsupported": 126,
+      "unsupported_pct": 0.389,
+      "unsupported_ci_95": [0.337, 0.443],
+      "supported": 102,
+      "uncheckable": 96
+    },
+    "v3": {
+      "unsupported": 91,
+      "unsupported_pct": 0.281,
+      "unsupported_ci_95": [0.235, 0.332],
+      "supported": 122,
+      "uncheckable": 59,
+      "no_match": 52,
+      "no_match_pct": 0.160
+    },
+    "v3_minus_v1_flag_rate": -0.108,
+    "estimated_true_overclaims": 36,
+    "estimated_true_overclaim_range": [20, 54],
+    "estimated_true_overclaim_rate": 0.110,
+    "estimated_true_overclaim_rate_range": [0.062, 0.166]
+  },
+  "fullset_ground_truth_44_matched": {
+    "v1": {
+      "true_positives": 13,
+      "false_positives": 36,
+      "false_negatives": 0,
+      "true_negatives": 0,
+      "precision": 0.265,
+      "precision_ci_95": [0.162, 0.403],
+      "recall": 1.000,
+      "recall_ci_95": [0.772, 1.000],
+      "f1": 0.419,
+      "accuracy": 0.265
+    },
+    "v3": {
+      "true_positives": 9,
+      "false_positives": 14,
+      "false_negatives": 4,
+      "true_negatives": 22,
+      "precision": 0.391,
+      "precision_ci_95": [0.222, 0.592],
+      "recall": 0.692,
+      "recall_ci_95": [0.424, 0.873],
+      "f1": 0.500,
+      "accuracy": 0.633
+    },
+    "mcnemar": {
+      "both_correct": 9,
+      "v1_only_correct": 4,
+      "v3_only_correct": 22,
+      "both_wrong": 14,
+      "chi2_continuity_corrected": 11.115,
+      "significant_p05": true
+    }
+  },
+  "per_type_v3_on_labeled": {
+    "Count Mismatch": {"n": 4, "tp": 0, "fp": 2, "fn": 1, "precision": 0.0, "recall": 0.0},
+    "Fabricated Tool Call": {"n": 14, "tp": 2, "fp": 3, "fn": 1, "precision": 0.40, "recall": 0.67},
+    "Fact Mismatch": {"n": 19, "tp": 3, "fp": 5, "fn": 1, "precision": 0.38, "recall": 0.75},
+    "False Absence": {"n": 4, "tp": 2, "fp": 2, "fn": 0, "precision": 0.50, "recall": 1.00},
+    "Inference-as-Fact": {"n": 6, "tp": 2, "fp": 0, "fn": 1, "precision": 1.00, "recall": 0.67},
+    "Source Fabrication": {"n": 2, "tp": 0, "fp": 2, "fn": 0, "precision": 0.0, "recall": 0.0}
+  },
+  "error_analysis": {
+    "v3_false_positives": {
+      "total": 14,
+      "by_cause": {
+        "fp_turn_scope": 6,
+        "fp_evidence_missed": 6,
+        "fp_not_a_claim": 2
+      },
+      "by_type": {
+        "Fact Mismatch": 5,
+        "Fabricated Tool Call": 3,
+        "Source Fabrication": 2,
+        "Count Mismatch": 2,
+        "False Absence": 2
+      }
+    },
+    "v3_false_negatives": {
+      "total": 4,
+      "details": [
+        {"v3_verdict": "no_match", "type": "Fabricated Tool Call", "note": "v3 did not extract this claim"},
+        {"v3_verdict": "no_match", "type": "Count Mismatch", "note": "v3 did not extract this claim"},
+        {"v3_verdict": "uncheckable", "type": "Fact Mismatch", "note": "evidence ambiguous"},
+        {"v3_verdict": "no_match", "type": "Inference-as-Fact", "note": "v3 did not extract this claim"}
+      ]
+    }
+  },
+  "claim_type_distribution_fullset": {
+    "Fact Mismatch": 164,
+    "Fabricated Tool Call": 53,
+    "Inference-as-Fact": 51,
+    "Count Mismatch": 24,
+    "False Absence": 16,
+    "Source Fabrication": 16
+  },
+  "pramana_distribution_fullset": {
+    "pratyaksha": 188,
+    "ungrounded": 63,
+    "shabda": 30,
+    "anumana": 27,
+    "anupalabdhi": 15,
+    "upamana": 1
+  }
+}

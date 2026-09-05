@@ -1,0 +1,7 @@
+{
+  "session": "0634f4c9-1b62-444b-832b-741ae32f8cac",
+  "size": 88476,
+  "returncode": 0,
+  "stdout": "scored 1 turn(s), wrote 8 verdict(s) to /Users/dev/.claude/assertion-gate/verdicts.jsonl\n",
+  "stderr": ""
+}
