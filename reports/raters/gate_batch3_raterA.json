@@ -1,0 +1,597 @@
+[
+  {
+    "n": 1,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 2,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 3,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 4,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 5,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 6,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 7,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 8,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 9,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 10,
+    "gate": "fp_not_a_claim",
+    "why": "The stated 'never needed' is a subjective judgment about necessity, not a checkable external state."
+  },
+  {
+    "n": 11,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 12,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 13,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 14,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 15,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 16,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 17,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 18,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 19,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 20,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 21,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 22,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 23,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 24,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 25,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 26,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 27,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 28,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 29,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 30,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 31,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 32,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 33,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 34,
+    "gate": "fp_not_a_claim",
+    "why": "Standalone the claim is just a timestamp label referencing an earlier decision, not itself a checkable assertion of state."
+  },
+  {
+    "n": 35,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 36,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 37,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 38,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 39,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 40,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 41,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 42,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 43,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 44,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 45,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 46,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 47,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 48,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 49,
+    "gate": "fp_not_a_claim",
+    "why": "The claim is an imperative plus a forward-looking prediction ('relaunches... within 5 seconds') that has not yet happened."
+  },
+  {
+    "n": 50,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 51,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 52,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 53,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 54,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 55,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 56,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 57,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 58,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 59,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 60,
+    "gate": "fp_not_a_claim",
+    "why": "Speculative future-risk statement ('would break on every Messages update'), not an assertion about current state."
+  },
+  {
+    "n": 61,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 62,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 63,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 64,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 65,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 66,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 67,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 68,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 69,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 70,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 71,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 72,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 73,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 74,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 75,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 76,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 77,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 78,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 79,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 80,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 81,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 82,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 83,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 84,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 85,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 86,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 87,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 88,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 89,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 90,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 91,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 92,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 93,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 94,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 95,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 96,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 97,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 98,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 99,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 100,
+    "gate": "fp_not_a_claim",
+    "why": "Phrased as a plan/request ('ask lane 3 for...'), not a completed fact about external state."
+  },
+  {
+    "n": 101,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 102,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 103,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 104,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 105,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 106,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 107,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 108,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 109,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 110,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 111,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 112,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 113,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 114,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 115,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 116,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 117,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  },
+  {
+    "n": 118,
+    "gate": "fp_not_a_claim",
+    "why": "Just a job-title label repeated from the data, asserting nothing checkable on its own."
+  },
+  {
+    "n": 119,
+    "gate": "pass",
+    "why": "Concrete assertion about external state (file/commit/count/metric/process/output) a tool receipt could confirm or contradict."
+  }
+]
