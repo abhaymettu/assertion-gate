@@ -49,7 +49,8 @@ If the session file is no longer on disk the row is labelled
 
 ## Two raters
 
-Both steps are run by two raters independently on identical inputs. Cohen's
+Step A is run by two raters independently on identical inputs; Step B by one
+rater, with a second rater on a random 30-claim subset for agreement. Cohen's
 kappa is reported per step. Disagreements are resolved by a third read and the
 resolution is recorded in the row's `adjudicated` field.
 
