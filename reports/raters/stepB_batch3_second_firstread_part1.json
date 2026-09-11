@@ -1,0 +1,74 @@
+[
+ {
+  "n": 77,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 5 receipt 4; earlier turn 3 receipts 12 and 18",
+  "why": "Earlier turn 5 receipt 4 builds Cell(pi=0.10, c=0.0, n=1000, detector='oracle', kappa=0.5, arm='pilot') with no rel_H and prints 'rel_H = 0.7'; earlier turn 3 receipts label the same defaults-built cell '(pi=0.10, c=0, kappa=0.5, delta=0, oracle)'. None of the 10 receipts in the flagged turn touch the Cell dataclass defaults."
+ },
+ {
+  "n": 80,
+  "label": "overclaim",
+  "evidence": "none",
+  "why": "No receipt in any turn shows dgp.DETECTORS, shows Cell.se_sp raising for detector='empirical', or shows INJECT.md section 10 declaring it; the flagged turn's receipts cover only the exact_mixture_law replacement, inject/__init__ exports, the INJECT.md section 12 test-output insert, and the final 41/41 run. The only mention of detector='empirical' anywhere is the reviewer's quote of build.py:174 in the prompt."
+ },
+ {
+  "n": 75,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 8 receipt 14 (Agent 'Adversarial review of inject module'), earlier turn 8 receipt 12 (cat > INJECT.md)",
+  "why": "The review launched by the earlier-turn Agent call is what quotes INJECT.md section 6 as claiming '(E7) is ... verified against the actual injection law' and recommends relabelling it 'not design validation'; INJECT.md itself was written by an earlier-turn receipt. No receipt in the flagged turn displays section 6's text."
+ },
+ {
+  "n": 103,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 22 receipts 1, 5, 6",
+  "why": "Earlier turn 22 read sourcing-batch-2.json (10 postings) and launched two scoring subagents covering jobs 1-5 and 6-10, so scoring tool calls did run; the ten per-posting numbers themselves appear in no rendered receipt (the subagent reports return as task notifications), and the flagged turn's 22 receipts are Tsenta status/approve calls and playwright-config greps only."
+ },
+ {
+  "n": 113,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 22 receipts 12-16; earlier turn 23 receipts 2-6",
+  "why": "The flagged turn has zero receipts, but five earlier-turn apply-to-job calls returned real applicationIds with remainingBalance 602, 601, 600, 599, 598, and the get-application-status rows for those ids carry createdAt 2026-09-07T16:45:31Z through 16:46:03Z."
+ },
+ {
+  "n": 59,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 5 receipt 6",
+  "why": "That receipt probes 'is there a background-color default?' and returns CKBackgroundSettings* plus TranscriptBackgrounds = 1 and no color key, supporting both that a native chat-backgrounds feature exists and that no defaults key sets the transcript color. The flagged turn's two receipts (git commit, window cleanup) show nothing; the 'offers Apple's presets' characterization has no receipt of its own, and none contradicts it."
+ },
+ {
+  "n": 52,
+  "label": "fp_evidence_missed",
+  "evidence": "receipts 1 and 2 in this turn",
+  "why": "Receipt 1 prints CLAUDE.md:92 'Still retired 2026-09-04, do not score or draft: business analyst, analytics engineer', and receipt 2 lists the Twilio posting under 'postings with a STILL-RETIRED analyst title': 'Twilio | Staff, Analytics Engineer, GTM Data Science & Analytics'."
+ },
+ {
+  "n": 73,
+  "label": "uncheckable",
+  "evidence": "earlier turn 8 receipt 6 (truncated); earlier turn 7 receipt 21",
+  "why": "No rendered receipt shows the Sierra San Francisco new-grad role at rank #9: the run-1 listing puts it at #2 (66.5) and the current run's TOP 40 listing (movement.txt, 91 output lines) is cut off after rank #5 by the dossier's 1500-character preview, so the receipts neither confirm nor contradict #9. The flagged turn's own receipts print only #1, #21 and #40."
+ },
+ {
+  "n": 101,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 13 receipts 5 and 13; earlier turn 15 receipt 15",
+  "why": "get-application-balance returned total 614, the Vapi apply-with-custom-resume (app 41f4328d) returned remainingBalance 613, and the next fill (LiveKit) returned 608. The flagged turn's own balances are 603 and 602, so all three numbers in the claim come from earlier turns."
+ },
+ {
+  "n": 107,
+  "label": "overclaim",
+  "evidence": "receipt 5 in this turn",
+  "why": "The slope table shows adjusted-count slopes of nan (big5/EXT), 0.540 (gpt-3.5/AGR), 0.987, 1.083, 1.204 and 0.794, so the stated 0.79-1.20 range silently drops the 0.540 cell (and the undefined one); the receipt supports the level-offset reading for four of six cells only."
+ },
+ {
+  "n": 84,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 14 receipt 33; partial table in receipt 1 of this turn",
+  "why": "Earlier turn 14 receipt 33 prints 'dm within 0.01: [4 cells]', which is what makes it 16 of 20 missing, and the flagged turn's receipt 1 shows only the first 9 rows of the dm bias column (both signs present, +0.1422 to -0.0075), stopping before the rows that would carry the quoted -0.089 to +0.220 endpoints; nothing contradicts them."
+ },
+ {
+  "n": 117,
+  "label": "fp_evidence_missed",
+  "evidence": "receipt 32 in this turn (plus earlier turn 22 receipt 16 for the 598 baseline)",
+  "why": "Receipt 32 is a get-application-balance returning total 581, and the 598 starting point is the remainingBalance of the fifth apply-to-job in earlier turn 22 (also restated in this turn's context summary)."
+ }
+]

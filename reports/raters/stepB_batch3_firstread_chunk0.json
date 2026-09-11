@@ -1,0 +1,86 @@
+[
+ {
+  "n": 115,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 22 receipt 1; earlier turn 21 receipt 1",
+  "why": "The flagged turn (23) has no receipt touching PID 8258 or grid.jsonl, but earlier turn 22 receipt 1 ran `ps -p 8258 -o pid=,etime=,command=` and earlier turn 21 receipt 1 showed PID 8258 alive as `run_grid_full.py --out results/grid` with ELAPSED 06:30:53 plus grid.jsonl listed as modified in git status. 6h58m ~27 min later is consistent, not contradicted."
+ },
+ {
+  "n": 74,
+  "label": "fp_evidence_missed",
+  "evidence": "receipts 3, 4, 5",
+  "why": "Receipt 4 prints `[PASS] the internal Att algebra is self-consistent (Den == Var(x)) max 2.78e-17 -- an identity, not a design check`, and receipts 3/5 show the replacement enumerated law agreeing to 1.67e-16 over 18 cells with a corruption test that now moves the gap. The flagged turn's own receipts confirm the old (E7) comparison was an identity."
+ },
+ {
+  "n": 75,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 9 receipt 12",
+  "why": "The agent itself authored INJECT.md in earlier turn 9 (`cat > INJECT.md <<'MD'`), and the reviewer report in this turn's prompt quotes section 6's \"verified against the actual injection law\" wording. No receipt in the flagged turn reads section 6 (receipt 7 reads lines 335-352 only), and nothing contradicts it."
+ },
+ {
+  "n": 76,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 5 receipt 4; earlier turn 9 receipt 16",
+  "why": "Earlier turn 5 receipt 4 constructs a Cell without rel_H and prints `rel_H = 0.7`, showing Cell hands back unset Layer A defaults; earlier turn 9 receipt 16 wrote inject/build.py, which the reviewer quotes as constructing the Layer B Cell. No flagged-turn receipt shows the leak."
+ },
+ {
+  "n": 77,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 5 receipt 4 (rel_H); earlier turn 1 receipts 16, 20 (dgp.py authored, delta field)",
+  "why": "`rel_H = 0.7` is shown as the value returned for a Cell that never set it (earlier turn 5 receipt 4). The delta = 0.0 default is not directly receipted anywhere - delta appears only where it was explicitly passed - but nothing contradicts it, and the dataclass lives in dgp.py which the agent wrote in earlier turn 1."
+ },
+ {
+  "n": 78,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 1 receipt 20",
+  "why": "Earlier turn 1 receipt 20 prints `Var(x|H) 1.4243 want 1.4286` for a Cell carrying the rel_H=0.7 default (1/0.7 = 1.42857), matching the claimed V_H; the Layer B answer of 1.0 follows from the human-base standardization the reviewer states in this turn's prompt. Nothing in the flagged turn's receipts shows it."
+ },
+ {
+  "n": 79,
+  "label": "uncheckable",
+  "evidence": "none",
+  "why": "No receipt in any turn reads back the Layer B Cell construction after the fix. The flagged turn does edit inject/build.py (receipt 3), but the dossier truncates every heredoc command at ~400 chars, so the Cell change is neither visible nor excluded; the receipt outputs (enumeration table, 41/41 checks) say nothing about these six fields."
+ },
+ {
+  "n": 80,
+  "label": "uncheckable",
+  "evidence": "none",
+  "why": "No receipt prints dgp.DETECTORS, exercises Cell.se_sp with detector=\"empirical\", or shows INJECT.md section 10. Receipt 7 reads only INJECT.md lines 335-352 (sections 11-13), and receipts 8-9 rewrite section 12, so the section 10 declaration is neither shown nor contradicted."
+ },
+ {
+  "n": 81,
+  "label": "uncheckable",
+  "evidence": "none",
+  "why": "What the reviewer cleared would be in the review agent's report, which arrived as this turn's prompt (the dossier truncates it at 3000 chars, cutting off inside finding 2) rather than as a receipt; no receipt reads the task output file, so the receipts neither support nor contradict the list of cleared items."
+ },
+ {
+  "n": 46,
+  "label": "fp_turn_scope",
+  "evidence": "earlier turn 3 receipts 1 and 2",
+  "why": "Earlier turn 3 receipt 1 rebuilt via tools/bundle.sh, reinstalled /Applications/ProjectF.app and bootstrapped the LaunchAgent (state = running, pid 99521), and receipt 2 did a second bootout/bootstrap after editing the plist (state = running, pid 114) - two reinstalls each restarting the agent. The notification text itself is not in any receipt; it is what the user's screenshot in the prompt showed."
+ },
+ {
+  "n": 47,
+  "label": "fp_evidence_missed",
+  "evidence": "receipts 1, 3 (and earlier turn 3 receipt 1)",
+  "why": "Receipt 1's log tail shows `projectf: needs Accessibility access ... Waiting`, and receipt 3's sed replaces bundle.sh's ad-hoc `codesign --force --sign -` line, confirming the rebuilt bundle had been ad-hoc signed. Earlier turns show AX working before the rebuild, so both halves of the claim are receipted; only the causal link is inference."
+ },
+ {
+  "n": 48,
+  "label": "fp_evidence_missed",
+  "evidence": "receipts 2, 3, 7",
+  "why": "Receipt 2 lists the codesigning identities, receipt 3 rebuilds and prints `TeamIdentifier=L298CM3N6P` for the newly signed bundle, and receipts 3 and 7 show the log still reading `needs Accessibility access ... Waiting` afterwards, i.e. a grant is required for the new signature. Nothing queries the TCC database directly, so \"new to TCC\" is inference over receipted facts."
+ },
+ {
+  "n": 50,
+  "label": "fp_evidence_missed",
+  "evidence": "receipts 7, 8 (plist authored in earlier turn 3 receipts 1-2)",
+  "why": "Receipt 7's `launchctl print gui/$(id -u)/dev.redacted.projectf` returns state = running, pid 4886, and receipt 8 shows pid 4886 is /Applications/ProjectF.app/Contents/MacOS/ProjectF - the LaunchAgent exists at that label and path. The RunAtLoad/KeepAlive behaviour comes from the plist the agent itself wrote at that path in earlier turn 3 (heredoc truncated in the preview)."
+ },
+ {
+  "n": 1,
+  "label": "fp_evidence_missed",
+  "evidence": "receipt 1 (receipt 2 qualifies it)",
+  "why": "Receipt 1's plain `git commit` was not blocked by the ponytail hook - it reached git and failed with \"no changes added to commit\", listing modified RESUME.md - which is exactly the claim. Receipt 2 shows the follow-up `git add -A && git commit` blocked again, so the gate passed only for that one unstaged attempt."
+ }
+]
